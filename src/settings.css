@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family:'Nova Round', cursive;
+  color: black;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:visited {
+  color: black;
+}
+.home, .knowledges, .portfolio, .contact {
+  display: flex;
+}
+@media screen and (max-width: 850px) {
+  .home, .knowledges, .portfolio, .contact {
+    display: block !important;
+ }
+}
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+  margin-left: 0.4rem;
+}
+@media screen and (max-width: 850px) {
+  .homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+    margin-left: 0 !important;
+ }
+}
+.sidebar{
+  background: #2a1d52;
+  font-family: 'Nova Round', cursive;
+  height: 100%;
+  min-height: 95vh;
+  min-width: 264px;
+  border-radius: 25px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px 1fr 108px;
+  grid-template-areas: "1" "2" "3";
+}

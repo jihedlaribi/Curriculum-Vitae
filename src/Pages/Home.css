@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+
+.home .homeContent {
+    background: linear-gradient(115deg, #2a1d52 50%, transparent 100%);
+    min-height: 95vh;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.home .homeContent:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: inherit;
+    background: url('https://scontent.ftun15-1.fna.fbcdn.net/v/t1.6435-1/p240x240/76684630_2363898717192617_2993390887309934592_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=60F1azexVuYAX9iRqrw&_nc_ht=scontent.ftun15-1.fna&oh=ba3e0c3eb7ebff52d28f8ad013e31a74&oe=616DE8DB') no-repeat center/cover;
+    z-index: -1;
+    filter: brightness(30%);
+}
+.home .homeContent .content {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    font-family: 'Nova Round', cursive;
+}
+.home .homeContent .content h1 {
+    font-size: 5rem;
+    font-family: 'Josefin Sans', serif;
+    color: #36d0ea;
+    text-transform: uppercase;
+    text-shadow: 3px 6px 2px black;
+}
+.home .homeContent .content h2 {
+    font-size: 2.5rem;
+    padding: 1.5rem 0 7rem;
+    color: #63a4e9;
+    text-shadow: 1px 4px 1px black;
+}
+.home .homeContent .content .pdf a {
+    font-size: 1.5rem;
+    background: #63a4e9;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    box-shadow: 0 5px 1px #0f0f0f;
+    transition: 0.2s ease;
+}
+.home .homeContent .content .pdf a:hover {
+    background: #4fedd2;
+}
+@media screen and (max-width: 850px) {
+    .homeContent {
+        margin: 0 !important;
+   }
+}
+@media screen and (max-width: 580px) {
+    .homeContent:after {
+        background: url('https://scontent.ftun15-1.fna.fbcdn.net/v/t1.6435-1/p240x240/76684630_2363898717192617_2993390887309934592_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=60F1azexVuYAX9iRqrw&_nc_ht=scontent.ftun15-1.fna&oh=ba3e0c3eb7ebff52d28f8ad013e31a74&oe=616DE8DB') no-repeat 60% 50%/cover !important;
+   }
+    .homeContent h1 {
+        font-size: 3rem !important;
+   }
+    .homeContent h2 {
+        font-size: 1.8rem !important;
+   }
+}

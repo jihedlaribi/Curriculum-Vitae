@@ -1,0 +1,23 @@
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    max-width: 1200px;
+    background: #63a4e9;
+    border-radius: 25px;
+    text-align: center;
+}
+.notFound h3 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.notFound a {
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    background: #36d0ea;
+    transition: 0.2s;
+}
+.notFound a:hover {
+    background: #4fedd2;
+}
