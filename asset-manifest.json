@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Curriculum-Vitae/static/css/main.fe615028.chunk.css",
+    "main.js": "/Curriculum-Vitae/static/js/main.b84129f6.chunk.js",
+    "main.js.map": "/Curriculum-Vitae/static/js/main.b84129f6.chunk.js.map",
+    "runtime-main.js": "/Curriculum-Vitae/static/js/runtime-main.cce080fe.js",
+    "runtime-main.js.map": "/Curriculum-Vitae/static/js/runtime-main.cce080fe.js.map",
+    "static/js/2.34ccb2d3.chunk.js": "/Curriculum-Vitae/static/js/2.34ccb2d3.chunk.js",
+    "static/js/2.34ccb2d3.chunk.js.map": "/Curriculum-Vitae/static/js/2.34ccb2d3.chunk.js.map",
+    "index.html": "/Curriculum-Vitae/index.html",
+    "static/css/main.fe615028.chunk.css.map": "/Curriculum-Vitae/static/css/main.fe615028.chunk.css.map",
+    "static/js/2.34ccb2d3.chunk.js.LICENSE.txt": "/Curriculum-Vitae/static/js/2.34ccb2d3.chunk.js.LICENSE.txt",
+    "static/media/Contact.css": "/Curriculum-Vitae/static/media/shape.1d026b20.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cce080fe.js",
+    "static/js/2.34ccb2d3.chunk.js",
+    "static/css/main.fe615028.chunk.css",
+    "static/js/main.b84129f6.chunk.js"
+  ]
+}
